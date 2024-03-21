@@ -555,8 +555,8 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-8 col-md-10 offset-md-1 offset-lg-2  offset-xl-3 text-center">
                         <div class="section-title mb-30 ">
-                            <h2 class="p-relative">Contact Me</h2>
-                            <p>If you have anything to know, feel free to message me.</p>
+                            <h2 class="p-relative ">Contact <span> Me</span></h2>
+                            <p>If you have anything to know, feel free to message me.  Kindly understand that there may be a short wait for me to receive your message after you send it because it must be processed.</p>
                         </div>
                     </div>
                 </div>
@@ -633,7 +633,7 @@
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                msg.innerHTML = "Message Sent Successfully"
+                msg.innerHTML = ""
                 setTimeout(function(){
                     msg.innerHTML = ""
                 }, 1000)

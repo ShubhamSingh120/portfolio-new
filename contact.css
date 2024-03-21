@@ -8,6 +8,7 @@
 
 .contact-right{
     flex-basis: 60%;
+    margin-bottom: 80px;
 }
 
 
@@ -46,7 +47,8 @@
 }
 
 .btn.btn2:hover{
-    border: 2px solid #ff004f;
+    background: #ff004f;
+    border: 2px solid #007ced;
     color: #fff;
 }
 
